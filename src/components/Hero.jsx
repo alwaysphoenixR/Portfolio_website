@@ -1,15 +1,26 @@
-import React from 'react';
-import { IconGithub, IconLinkedin, IconDocument, IconMail, IconTwitter } from './Icons.jsx';
+import React from "react";
+import {
+  IconGithub,
+  IconLinkedin,
+  IconDocument,
+  IconMail,
+  IconTwitter,
+} from "./Icons.jsx";
 
 export default function Hero() {
   return (
-    <section className="reveal-on-scroll is-visible w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl lg:py-16" id="about">
+    <section
+      className="reveal-on-scroll is-visible w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl lg:py-16"
+      id="about"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-start">
-
         {/* Left column: Bio & Actions */}
         <div className="lg:col-span-7 flex flex-col items-start gap-space-lg">
           <div className="inline-flex items-center gap-space-sm px-space-md py-1 rounded-full bg-surface-container text-on-surface-variant font-label-tag text-label-tag shadow-sm border border-outline-variant/30">
-            <span className="w-2 h-2 rounded-full animate-ping" style={{ backgroundColor: 'rgb(0, 48, 207)' }}></span>
+            <span
+              className="w-2 h-2 rounded-full animate-ping"
+              style={{ backgroundColor: "rgb(0, 48, 207)" }}
+            ></span>
 
             <span>BUILDER</span>
           </div>
@@ -19,7 +30,10 @@ export default function Hero() {
               SOFTWARE ENGINEER / BACKEND / AI
             </p>
             <h1 className="font-headline-xl text-headline-xl text-on-surface tracking-tight leading-none">
-              I'm <span style={{ color: 'rgb(0, 48, 207)' }}>Rajveer Singh</span>, a Computer Science student at NIT Raipur. I enjoy building scalable backend systems and AI-powered applications that solve real-world problems.
+              I'm{" "}
+              <span style={{ color: "rgb(0, 48, 207)" }}>Rajveer Singh</span>, a
+              CS major at NIT Raipur. I enjoy building scalable backend systems
+              and AI-powered applications that solve real-world problems.
             </h1>
           </div>
 
@@ -88,15 +102,16 @@ export default function Hero() {
           <div
             className="ambient-float relative w-full max-w-sm aspect-square bg-surface-container-lowest rounded-xl p-space-md shadow-xl border border-outline-variant/20 flex flex-col items-center justify-center group overflow-hidden transition-all duration-300 hover:shadow-2xl"
             style={{
-              borderColor: 'rgba(0, 48, 207, 0.35)',
-              boxShadow: 'rgba(0, 48, 207, 0.18) 0px 10px 30px -10px',
+              borderColor: "rgba(0, 48, 207, 0.35)",
+              boxShadow: "rgba(0, 48, 207, 0.18) 0px 10px 30px -10px",
             }}
           >
             <div
               className="relative w-4/5 h-4/5 flex items-center justify-center p-2 rounded-lg bg-surface-container-low transition-transform duration-300 group-hover:scale-[1.02]"
               style={{
-                background: 'linear-gradient(rgb(240, 244, 255) 0%, rgb(244, 242, 253) 100%)',
-                border: '1px solid rgba(0, 48, 207, 0.15)',
+                background:
+                  "linear-gradient(rgb(240, 244, 255) 0%, rgb(244, 242, 253) 100%)",
+                border: "1px solid rgba(0, 48, 207, 0.15)",
               }}
             >
               <img
@@ -107,7 +122,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
